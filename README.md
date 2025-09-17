@@ -53,7 +53,10 @@ Este notebook se centra en aplicar el ORT directamente a un cerebro humano digit
 * `ORT_Experiment_Suite.ipynb`: Notebook principal con el pipeline completo (Cora, Pubmed, Macaco).
 * `ORT_Human_Connectome.ipynb`: Notebook para el análisis del conectoma humano.
 * `ORT_Report.pdf`: El PDF del artículo de investigación completo.
-* `/img`: Carpeta con las imágenes y visualizaciones clave del proyecto.
+* `TRO_Report.pdf`: El PDF del artículo de investigación completo en inglés.
+* `/outputs: Carpeta con todos los archivos generados por los notebooks.
+   `/csv: Subcarpeta para los resultados cuantitativos en formato .csv.
+   `/img: Subcarpeta para las visualizaciones e imágenes en formato .png.
 * `LICENSE`: La licencia MIT del proyecto.
 
 ---
