@@ -1,0 +1,3 @@
+Operador,Nucleo_nodos,Activacion_media,Activacion_resto,Ratio_nucleo_resto
+Degree,8593,1280.0751774700339,124.33546014526064,10.295334701576904
+PageRank (aprox. Eigenvector),8588,5.1102944874407116e-05,3.4391266818986994e-06,14.859279579138333
