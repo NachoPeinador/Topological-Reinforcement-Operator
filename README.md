@@ -10,7 +10,7 @@ Este repositorio contiene la investigación y el código del **Operador de Refue
 
 El proyecto busca responder a una pregunta fundamental: **¿Puede la memoria duradera emerger directamente de la organización topológica de una red?**
 
-![Engram Visualization](https://i.imgur.com/TuImagen.png)
+![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/engrama_consolidado.png)
 *Visualización de un engrama consolidado. Los nodos del núcleo (rojo) y su vecindario (naranja) demuestran una estructura de memoria funcional y resiliente.*
 
 ---
