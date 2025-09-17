@@ -27,29 +27,24 @@ El proyecto busca responder a una pregunta fundamental: **¿Puede la memoria dur
 
 Este proyecto se estructura en dos notebooks de Google Colab, permitiendo una exploración completa desde la prueba de concepto hasta la aplicación en datos neurocientíficos reales.
 
+### **Requisitos de Datos**
+
+Para ejecutar los experimentos con conectomas biológicos, es necesario descargar los datasets de sus fuentes originales y colocarlos en una carpeta llamada `data/` en la raíz del proyecto.
+
+* **Conectoma de Macaco**: [Descargar desde Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
+* **Conectoma Humano**: [Descargar desde Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
+
 ### **1. El Experimento Fundamental: ORT en Redes de Grafos y Conectomas**
 
-Este notebook es el corazón del proyecto. Demuestra el pipeline completo del ORT, desde el entrenamiento de una GNN hasta la validación funcional en múltiples datasets, incluyendo un conectoma biológico.
+Este notebook es el corazón del proyecto. Demuestra el pipeline completo del ORT, desde el entrenamiento de una GNN hasta la validación funcional en múltiples datasets, incluyendo el conectoma de macaco.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](ENLACE_A_TU_COLAB_ORT.ipynb)
-
-> **Contenido**:
-> * Entrenamiento de una GNN en datasets clásicos (Cora, Citeseer, Pubmed).
-> * Aplicación del ORT para identificar y reforzar el núcleo de la red.
-> * Prueba funcional de memoria asociativa para reconstruir patrones dañados.
-> * Aplicación final en un **conectoma de macaco** para explorar la plausibilidad biológica.
 
 ### **2. El Viaje al Cerebro: ORT en el Conectoma Humano**
 
 Este notebook se centra en aplicar el ORT directamente a un cerebro humano digitalizado, explorando si los mismos principios matemáticos pueden identificar un "núcleo de memoria" en la red de conexiones cerebrales.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](ENLACE_A_TU_COLAB_ORT_HUMAN.ipynb)
-
-> **Contenido**:
-> * Carga de un conectoma humano real (BNU_1).
-> * Cálculo de centralidades (Grado, PageRank) acelerado por GPU para identificar los "super-hubs".
-> * Visualización de la distribución de conexiones, que sigue una ley de potencia.
-> * Protocolo de recuperación de memoria para poner a prueba la resiliencia del núcleo del conectoma.
 
 ---
 
@@ -58,7 +53,6 @@ Este notebook se centra en aplicar el ORT directamente a un cerebro humano digit
 * `ORT_Experiment_Suite.ipynb`: Notebook principal con el pipeline completo (Cora, Pubmed, Macaco).
 * `ORT_Human_Connectome.ipynb`: Notebook para el análisis del conectoma humano.
 * `ORT_Report.pdf`: El PDF del artículo de investigación completo.
-* `/data`: Carpeta para alojar los datasets de conectomas (requiere descarga manual).
 * `/img`: Carpeta con las imágenes y visualizaciones clave del proyecto.
 * `LICENSE`: La licencia MIT del proyecto.
 
