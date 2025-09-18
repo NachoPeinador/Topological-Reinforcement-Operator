@@ -12,7 +12,7 @@ This repository contains the research and code for the **Topological Reinforceme
 
 The project seeks to answer a fundamental question: **Can durable memory emerge directly from the topological organization of a network?**
 
-![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/ENG_engram_visualization.png)
+![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/ENG_engrama_consolidado.png)
 *Visualization of a consolidated engram. The core nodes (red) and their neighborhood (orange) demonstrate a functional and resilient memory structure.*
 
 ---
