@@ -63,6 +63,17 @@ Este notebook se centra en aplicar el ORT directamente a un cerebro humano digit
 
 ---
 
+
+## 💖 Apoya este Proyecto
+
+Este proyecto se desarrolla de forma independiente en tiempo libre. Si encuentras este trabajo valioso y quieres apoyar su continuidad y la creación de nuevas investigaciones, puedes hacerlo a través de GitHub Sponsors.
+
+[![Sponsor @NachoPeinador](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg)](https://github.com/sponsors/NachoPeinador)
+
+Toda contribución, por pequeña que sea, ayuda a dedicar más tiempo a la ciencia abierta. ¡Gracias!
+
+---
+
 ## ✍️ Citación
 
 Si encuentras este trabajo útil para tu investigación, por favor, cita nuestro artículo:
@@ -78,15 +89,5 @@ Si encuentras este trabajo útil para tu investigación, por favor, cita nuestro
 }
 ---
 
----
 
-
-## 💖 Apoya este Proyecto
-
-Este proyecto se desarrolla de forma independiente en tiempo libre. Si encuentras este trabajo valioso y quieres apoyar su continuidad y la creación de nuevas investigaciones, puedes hacerlo a través de GitHub Sponsors.
-
-[![Sponsor @NachoPeinador](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg)](https://github.com/sponsors/NachoPeinador)
-
-Toda contribución, por pequeña que sea, ayuda a dedicar más tiempo a la ciencia abierta. ¡Gracias!
----
 
