@@ -78,6 +78,9 @@ Si encuentras este trabajo útil para tu investigación, por favor, cita nuestro
 }
 ---
 
+---
+
+
 ## 💖 Apoya este Proyecto
 
 Este proyecto se desarrolla de forma independiente en tiempo libre. Si encuentras este trabajo valioso y quieres apoyar su continuidad y la creación de nuevas investigaciones, puedes hacerlo a través de GitHub Sponsors.
