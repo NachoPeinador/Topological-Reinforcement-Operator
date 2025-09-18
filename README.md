@@ -64,8 +64,6 @@ Este notebook se centra en aplicar el ORT directamente a un cerebro humano digit
 ---
 
 
----
-
 ## 🔬 Ciencia Independiente y Abierta
 
 Este trabajo se realizó de manera completamente independiente, sin financiación institucional ni corporativa, demostrando que la investigación de frontera puede surgir también desde entornos abiertos y accesibles.
