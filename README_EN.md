@@ -63,6 +63,16 @@ This notebook focuses on applying the TRO directly to a digitized human brain, e
 
 ---
 
+## 🔬 Independent & Open Science
+
+This work was carried out completely independently, without institutional or corporate funding, demonstrating that frontier research can also emerge from open and accessible environments.
+
+If you believe in this model of research and wish to contribute to its sustainability to enable the development of future projects, you can join the community of sponsors through GitHub Sponsors.
+
+[![Sponsor @NachoPeinador](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg)](https://github.com/sponsors/NachoPeinador)
+
+---
+
 ## ✍️ Citation
 
 If you find this work useful in your research, please cite our paper:
