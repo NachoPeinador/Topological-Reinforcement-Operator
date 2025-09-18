@@ -86,8 +86,8 @@ The GNN model calibration phase was successful, achieving a robust convergence w
 
 \begin{figure}[h]
     \centering
-    % Ensure you have the 'Entrenamiento.png' file in the same folder.
-    \includegraphics[width=0.5\textwidth]{Entrenamiento.png}
+    % Ensure you have the 'ENG_Entrenamiento.png' file in the same folder.
+    \includegraphics[width=0.5\textwidth]{ENG_Entrenamiento.png}
     \caption{Learning curve of the GNN model on the Cora dataset. The stabilization of the loss demonstrates a successful convergence.}
     \label{fig:learning_curve}
 \end{figure}
@@ -108,8 +108,8 @@ Following the application of the Topological Reinforcement Operator (TRO), a cor
 
 \begin{figure}[h!]
     \centering
-    % Ensure you have the 'engrama_consolidado.png' file or similar in the same folder.
-    \includegraphics[width=0.45\textwidth]{engrama_consolidado.png}
+    % Ensure you have the 'ENG_engrama_consolidado.png' file or similar in the same folder.
+    \includegraphics[width=0.45\textwidth]{ENG_engrama_consolidado.png}
     \caption{Visualization of a sample of the consolidated engram in the Cora network. The reinforced core (red) stands out from its neighborhood.}
     \label{fig:engram_viz}
 \end{figure}
@@ -138,8 +138,8 @@ To validate the superiority of the TRO, its functional performance was compared 
 
 \begin{figure}[h]
     \centering
-    % Ensure you have the bar chart from Colab saved as 'functional_comparison.png'
-    \includegraphics[width=0.6\textwidth]{functional_comparison.png}
+    % Ensure you have the bar chart from Colab saved as 'ENG_functional_comparison.png'
+    \includegraphics[width=0.6\textwidth]{ENG_functional_comparison.png}
     \caption{Comparison of the Memory Recovery Rate between the TRO method and baselines. The superior performance of the TRO validates the topological selection strategy.}
     \label{fig:functional_comparison}
 \end{figure}
@@ -182,16 +182,16 @@ To deepen the understanding of these generalization results, the structural prop
 
 \begin{figure}[h]
     \centering
-    % Ensure you have the file 'descarga (2).png' renamed as 'pubmed_dist.png'
-    \includegraphics[width=0.5\textwidth]{pubmed_dist.png}
+    % Ensure you have the file 'descarga (2).png' renamed as 'ENG_pubmed_dist.png'
+    \includegraphics[width=0.5\textwidth]{ENG_pubmed_dist.png}
     \caption{Degree distribution of the Pubmed dataset on a logarithmic scale. The "long tail" on the right evidences the existence of a small number of "super-hubs," nodes with a massive number of connections. The red line marks the 95th percentile threshold used by the TRO.}
     \label{fig:pubmed_dist}
 \end{figure}
 
 \begin{figure}[h]
     \centering
-    % Ensure you have the file 'descarga (1).png' renamed as 'citeseer_viz.png'
-    \includegraphics[width=0.5\textwidth]{citeseer_viz.png}
+    % Ensure you have the file 'descarga (1).png' renamed as 'ENG_citeseer_viz.png'
+    \includegraphics[width=0.5\textwidth]{ENG_citeseer_viz.png}
     \caption{Visualization of a sample of the consolidated engram in the Citeseer network. Despite it being a sparser graph, the TRO identifies a core of central nodes (red) and their associated neighborhood.}
     \label{fig:citeseer_viz}
 \end{figure}
@@ -204,8 +204,8 @@ The results, visualized in \textbf{Figure~\ref{fig:percentile_performance}}, are
 
 \begin{figure}[h]
     \centering
-    % Ensure you have the file 'descarga (4).png' renamed as 'percentile_performance.png'
-    \includegraphics[width=0.6\textwidth]{percentile_performance.png}
+    % Ensure you have the file 'descarga (4).png' renamed as 'ENG_percentile_performance.png'
+    \includegraphics[width=0.6\textwidth]{ENG_percentile_performance.png}
     \caption{Memory Recovery Rate as a function of the engram core's exclusivity. Performance is consistently high across all sizes, with a peak performance at the 97th Percentile, suggesting an optimal core size for functional resilience.}
     \label{fig:percentile_performance}
 \end{figure}
@@ -220,8 +220,8 @@ The quantitative data analysis confirms this hypothesis. A structural elite comp
 
 \begin{figure}[h!]
     \centering
-    % Ensure you have the file 'image_ecb57d.png' renamed as 'human_connectome_distribution.png'
-    \includegraphics[width=0.6\textwidth]{human_connectome_distribution.png}
+    % Ensure you have the file 'image_ecb57d.png' renamed as 'ENG_human_connectome_distribution.png'
+    \includegraphics[width=0.6\textwidth]{ENG_human_connectome_distribution.png}
     \caption{Degree distribution in the large-scale human connectome. The logarithmic scale reveals a clear power-law distribution, evidencing a small elite of 'super-hubs' (tail on the right). The quantitative analysis shows that these 95th percentile nodes exhibit a centrality that is $\sim$10.3 times greater than the rest according to Degree, and $\sim$14.9 times greater according to PageRank. The red line marks the 95th percentile threshold used by the TRO.}
     \label{fig:human_connectome}
 \end{figure}
@@ -323,8 +323,8 @@ Additionally, as the author, I declare my intent for this research to contribute
 
 % --- DATA AND CODE AVAILABILITY ---
 \section*{Data and Code Availability}
-The complete source code, implemented as a self-contained and documented Google Colab notebook, along with all data generated during this study, are publicly available in the following GitHub repository to ensure full transparency and reproducibility:
-\url{https://github.com/NachoPeinador/ORT_mem}
+The complete source code, implemented as a self-contained and documented Google Colab notebook, along with all data generated during this study, are publicly available in the following GitHub repository to ensure full transparency and reproducibility:\\
+\url{https://github.com/NachoPeinador/Topological-Reinforcement-Operator}
 \newpage
 
 
@@ -338,7 +338,7 @@ To confirm the robustness of the TRO, a sensitivity analysis was performed by va
 \begin{figure}[h]
     \centering
     % Insert the heatmap figure here
-    \includegraphics[width=0.6\textwidth]{sensitivity_heatmap.png}
+    \includegraphics[width=0.6\textwidth]{ENG_sensitivity_heatmap.png}
     \caption{Sensitivity heatmap of the TRO on the Cora dataset.}
     \label{fig:appendix_heatmap}
 \end{figure}
@@ -350,7 +350,7 @@ As a proof-of-concept for the applicability to biological data, a centrality ana
 \begin{figure}[h]
     \centering
     % Insert the macaque histogram figure here
-    \includegraphics[width=0.6\textwidth]{macaque_activation_dist.png}
+    \includegraphics[width=0.6\textwidth]{ENG_macaque_activation_dist.png}
     \caption{Distribution of activations in the macaque connectome after applying the TRO.}
     \label{fig:appendix_macaque}
 \end{figure}
