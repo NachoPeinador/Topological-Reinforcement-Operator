@@ -1,3 +1,5 @@
+[Read this page in English](README_EN.md)
+
 # Operador de Refuerzo Topológico (ORT): De la Simulación a la Neurociencia
 
 **Autor**: José Ignacio Peinador Sala | **Contacto**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
