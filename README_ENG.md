@@ -31,7 +31,10 @@ This project is structured into two Google Colab notebooks, allowing for a full 
 
 ### Data Requirements
 
-To run the experiments with biological connectomes, it is necessary to download the datasets from their original sources and place them in a folder named `data/` in the project's root directory.
+To run the experiments with biological connectomes, follow these steps:
+1.  Download the `.zip` file for the dataset from the original source.
+2.  Unzip the file and locate the file with the `.edges` extension.
+3.  Upload **only the `.edges` file** to the Google Colab session storage (using the left-side panel 📁) before running the notebook.
 
 * **Macaque Connectome**: [Download from Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
 * **Human Connectome**: [Download from Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
