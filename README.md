@@ -31,7 +31,10 @@ Este proyecto se estructura en dos notebooks de Google Colab, permitiendo una ex
 
 ### **Requisitos de Datos**
 
-Para ejecutar los experimentos con conectomas biológicos, es necesario descargar los datasets de sus fuentes originales y colocarlos en una carpeta llamada `data/` en la raíz del proyecto.
+Para ejecutar los experimentos con conectomas biológicos, sigue estos pasos:
+1.  Descarga el archivo `.zip` del dataset desde la fuente original.
+2.  Descomprime el archivo y localiza el fichero con la extensión `.edges`.
+3.  Sube **únicamente el fichero `.edges`** al almacenamiento de la sesión de Google Colab (usando el panel de la izquierda 📁) antes de ejecutar el notebook.
 
 * **Conectoma de Macaco**: [Descargar desde Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
 * **Conectoma Humano**: [Descargar desde Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
