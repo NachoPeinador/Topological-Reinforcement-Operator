@@ -43,13 +43,13 @@ Para ejecutar los experimentos con conectomas biológicos, sigue estos pasos:
 
 Este notebook es el corazón del proyecto. Demuestra el pipeline completo del ORT, desde el entrenamiento de una GNN hasta la validación funcional en múltiples datasets, incluyendo el conectoma de macaco.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](ENLACE_A_TU_COLAB_ORT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OukR00V035_fHGbIVuXwso2FWCoD8_Q5?usp=sharing)
 
 ### **2. El Viaje al Cerebro: ORT en el Conectoma Humano**
 
 Este notebook se centra en aplicar el ORT directamente a un cerebro humano digitalizado, explorando si los mismos principios matemáticos pueden identificar un "núcleo de memoria" en la red de conexiones cerebrales.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](ENLACE_A_TU_COLAB_ORT_HUMAN.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r9p6agxbX0cT9hqzkwL4XCuO10_Eu73i?usp=sharing)
 
 ---
 
