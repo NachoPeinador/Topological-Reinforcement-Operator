@@ -6,71 +6,66 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![arXiv:XXXX.XXXXX](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) ---
-
-This repository contains the research and code for the **Topological Reinforcement Operator (TRO)**, a computational method designed to emulate the consolidation of memory engrams in complex networks, from model systems to real-world brain connectomes.
-
-The project seeks to answer a fundamental question: **Can durable memory emerge directly from the topological organization of a network?**
-
-![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/ENG_engrama_consolidado.png)
-*Visualization of a consolidated engram. The core nodes (red) and their neighborhood (orange) demonstrate a functional and resilient memory structure.*
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
 
 ---
 
-## 🎯 Project Implications
+This repository contains the research and code for the **Topological Reinforcement Operator (TRO)**, a computational method designed to emulate memory engram consolidation in complex networks, from model systems to real brain connectomes.
 
-* **For AI**: A new path towards more efficient models, where specialization is achieved through topological reinforcement instead of costly retraining.
-* **For Computational Neuroscience**: A concrete and reproducible hypothesis on how engrams could be consolidated in the brain.
-* **For Network Science**: Evidence that simple principles of connectivity can give rise to complex and resilient functions, such as associative memory.
+The project seeks to answer a fundamental question: **Can long-lasting memory emerge directly from the topological organization of a network?**
+
+![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/engrama_consolidado.png)
+*Visualization of a consolidated engram. Core nodes (red) and their neighborhood (orange) demonstrate a functional and resilient memory structure.*
 
 ---
 
-## 🔬 Reproducibility and Interactive Experiments
+## 🎯 Key Findings
 
-This project is structured into two Google Colab notebooks, allowing for a full exploration from the proof-of-concept to the application on real neuroscientific data.
+* **✅ Perfect memory recovery**: 100% recovery in Pubmed and human connectome
+* **✅ Biological validation**: "Super-hubs" structure confirmed in real human connectome
+* **✅ Robust generalization**: Works on networks from 2,700 to 178,000 nodes
+* **✅ Simple mechanism**: Degree centrality outperforms complex metrics
 
-### Data Requirements
+---
 
-To run the experiments with biological connectomes, follow these steps:
-1.  Download the `.zip` file for the dataset from the original source.
-2.  Unzip the file and locate the file with the `.edges` extension.
-3.  Upload **only the `.edges` file** to the Google Colab session storage (using the left-side panel 📁) before running the notebook.
+## 🔬 Interactive Experiments
 
-* **Macaque Connectome**: [Download from Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
-* **Human Connectome**: [Download from Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
+### **Data Requirements**
 
-### 1. The Core Experiment: TRO on Graph Networks and Connectomes
+To run experiments with biological connectomes:
+1.  Download the `.edges` file from the original source
+2.  Upload it to Google Colab storage before execution
 
-This notebook is the heart of the project. It demonstrates the complete TRO pipeline, from training a GNN to functional validation on multiple datasets, including the macaque connectome.
+* **Macaque Connectome**: [Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
+* **Human Connectome**: [Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UoA1PnEJCWcytzHqp63F8pSReigC0dE0?usp=sharing)
+### **1. Fundamental Experiment: TRO on Networks and Connectomes**
+Complete pipeline from GNN to validation on multiple datasets.
 
-### 2. The Journey into the Brain: TRO on the Human Connectome
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OukR00V035_fHGbIVuXwso2FWCoD8_Q5?usp=sharing)
 
-This notebook focuses on applying the TRO directly to a digitized human brain, exploring whether the same mathematical principles can identify a "memory core" in the brain's connection network.
+### **2. Journey to the Brain: TRO on Human Connectome**
+Direct application to a digitized human brain.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1245KelkFksdcrnbSgGXmwhCrTPpzIiAx?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r9p6agxbX0cT9hqzkwL4XCuO10_Eu73i?usp=sharing)
 
 ---
 
 ## 📂 Repository Structure
 
-* `TRO_Experiment_Suite_EN.ipynb`: Main notebook with the complete pipeline (Cora, Pubmed, Macaque).
-* `TRO_Human_Connectome_EN.ipynb`: Notebook for the human connectome analysis.
-* `ORT_Report.pdf`: The full research paper PDF (Spanish).
-* `TRO_Report.pdf`: The full research paper PDF (English).
-* `/outputs`: Folder with all files generated by the notebooks.
-    * `/csv`: Subfolder for quantitative results in `.csv` format.
-    * `/img`: Subfolder for visualizations and images in `.png` format.
-* `LICENSE`: The MIT license for the project.
+* **`/Notebooks`**: All experiment notebooks (Spanish and English)
+* **`/Reports`**: Complete research articles (Spanish and English)  
+* **`/outputs`**: Results generated by experiments
+  * `/csv`: Quantitative data in CSV format
+  * `/img`: Visualizations and graphs
+* **`/data`**: Datasets and input files
+* `LICENSE`: MIT project license
 
 ---
 
-## 🔬 Independent & Open Science
+## 🔬 Independent and Open Science
 
-This work was carried out completely independently, without institutional or corporate funding, demonstrating that frontier research can also emerge from open and accessible environments.
-
-If you believe in this model of research and wish to contribute to its sustainability to enable the development of future projects, you can join the community of sponsors through GitHub Sponsors.
+This work was conducted completely independently, without institutional or corporate funding, demonstrating that frontier research can also emerge from open and accessible environments.
 
 [![Sponsor @NachoPeinador](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg)](https://github.com/sponsors/NachoPeinador)
 
@@ -78,15 +73,12 @@ If you believe in this model of research and wish to contribute to its sustainab
 
 ## ✍️ Citation
 
-If you find this work useful in your research, please cite our paper:
-
 ```bibtex
 @misc{peinador2025engram,
-      title={Emulation of Engram Consolidation in Graph Neural Networks via a Topological Reinforcement Operator}, 
+      title={Emulation of Engram Consolidation in Neural Networks through a Topological Reinforcement Operator}, 
       author={José Ignacio Peinador Sala},
       year={2025},
       eprint={XXXX.XXXXX},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
-```
