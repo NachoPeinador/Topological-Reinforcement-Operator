@@ -42,12 +42,12 @@ To run experiments with biological connectomes:
 ### **1. Fundamental Experiment: TRO on Networks and Connectomes**
 Complete pipeline from GNN to validation on multiple datasets.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OukR00V035_fHGbIVuXwso2FWCoD8_Q5?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UoA1PnEJCWcytzHqp63F8pSReigC0dE0?usp=sharing)
 
 ### **2. Journey to the Brain: TRO on Human Connectome**
 Direct application to a digitized human brain.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r9p6agxbX0cT9hqzkwL4XCuO10_Eu73i?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1245KelkFksdcrnbSgGXmwhCrTPpzIiAx?usp=sharing)
 
 ---
 
