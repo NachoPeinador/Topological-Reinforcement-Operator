@@ -43,13 +43,13 @@ To run the experiments with biological connectomes, follow these steps:
 
 This notebook is the heart of the project. It demonstrates the complete TRO pipeline, from training a GNN to functional validation on multiple datasets, including the macaque connectome.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TRO_Experiment_Suite_EN.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UoA1PnEJCWcytzHqp63F8pSReigC0dE0?usp=sharing)
 
 ### 2. The Journey into the Brain: TRO on the Human Connectome
 
 This notebook focuses on applying the TRO directly to a digitized human brain, exploring whether the same mathematical principles can identify a "memory core" in the brain's connection network.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](TRO_Human_Connectome_EN.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1245KelkFksdcrnbSgGXmwhCrTPpzIiAx?usp=sharing)
 
 ---
 
