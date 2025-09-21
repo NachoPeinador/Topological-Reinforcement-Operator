@@ -6,7 +6,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![arXiv:XXXX.XXXXX](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) ---
+[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
+
+---
 
 Este repositorio contiene la investigación y el código del **Operador de Refuerzo Topológico (ORT)**, un método computacional diseñado para emular la consolidación de engramas de memoria en redes complejas, desde sistemas modelo hasta conectomas cerebrales reales.
 
@@ -17,37 +19,33 @@ El proyecto busca responder a una pregunta fundamental: **¿Puede la memoria dur
 
 ---
 
-## 🎯 Implicaciones del Proyecto
+## 🎯 Hallazgos Principales
 
-* **Para la IA**: Un nuevo camino hacia modelos más eficientes, donde la especialización se logra con refuerzo topológico en lugar de reentrenamiento costoso.
-* **Para la Neurociencia Computacional**: Una hipótesis concreta y reproducible sobre cómo podrían consolidarse los engramas en el cerebro.
-* **Para la Ciencia de Redes**: Evidencia de que principios simples de conectividad pueden dar lugar a funciones complejas y resilientes, como la memoria asociativa.
+* **✅ Recuperación de memoria perfecta**: 100% de recuperación en Pubmed y conectoma humano
+* **✅ Validación biológica**: Estructura de "super-hubs" confirmada en conectoma humano real
+* **✅ Generalización robusta**: Funciona en redes desde 2,700 hasta 178,000 nodos
+* **✅ Mecanismo simple**: La centralidad de grado supera a métricas complejas
 
 ---
 
-## 🔬 Reproducibilidad y Experimentos Interactivos
-
-Este proyecto se estructura en dos notebooks de Google Colab, permitiendo una exploración completa desde la prueba de concepto hasta la aplicación en datos neurocientíficos reales.
+## 🔬 Experimentos Interactivos
 
 ### **Requisitos de Datos**
 
-Para ejecutar los experimentos con conectomas biológicos, sigue estos pasos:
-1.  Descarga el archivo `.zip` del dataset desde la fuente original.
-2.  Descomprime el archivo y localiza el fichero con la extensión `.edges`.
-3.  Sube **únicamente el fichero `.edges`** al almacenamiento de la sesión de Google Colab (usando el panel de la izquierda 📁) antes de ejecutar el notebook.
+Para ejecutar los experimentos con conectomas biológicos:
+1.  Descarga el archivo `.edges` desde la fuente original
+2.  Súbelo al almacenamiento de Google Colab antes de ejecutar
 
-* **Conectoma de Macaco**: [Descargar desde Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
-* **Conectoma Humano**: [Descargar desde Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
+* **Conectoma de Macaco**: [Network Repository](https://networkrepository.com/bn-macaque-rhesus-cerebral-cortex-1.php)
+* **Conectoma Humano**: [Network Repository](https://networkrepository.com/bn-human-BNU-1-0025890-session-1.php)
 
-### **1. El Experimento Fundamental: ORT en Redes de Grafos y Conectomas**
-
-Este notebook es el corazón del proyecto. Demuestra el pipeline completo del ORT, desde el entrenamiento de una GNN hasta la validación funcional en múltiples datasets, incluyendo el conectoma de macaco.
+### **1. Experimento Fundamental: ORT en Redes y Conectomas**
+Pipeline completo desde GNN hasta validación en múltiples datasets.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OukR00V035_fHGbIVuXwso2FWCoD8_Q5?usp=sharing)
 
-### **2. El Viaje al Cerebro: ORT en el Conectoma Humano**
-
-Este notebook se centra en aplicar el ORT directamente a un cerebro humano digitalizado, explorando si los mismos principios matemáticos pueden identificar un "núcleo de memoria" en la red de conexiones cerebrales.
+### **2. Viaje al Cerebro: ORT en Conectoma Humano**
+Aplicación directa a un cerebro humano digitalizado.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r9p6agxbX0cT9hqzkwL4XCuO10_Eu73i?usp=sharing)
 
@@ -55,31 +53,25 @@ Este notebook se centra en aplicar el ORT directamente a un cerebro humano digit
 
 ## 📂 Estructura del Repositorio
 
-* `ORT_Experiment_Suite.ipynb`: Notebook principal con el pipeline completo (Cora, Pubmed, Macaco).
-* `ORT_Human_Connectome.ipynb`: Notebook para el análisis del conectoma humano.
-* `ORT_Report.pdf`: El PDF del artículo de investigación completo (Español).
-* `TRO_Report.pdf`: El PDF del artículo de investigación completo (Inglés).
-* `/outputs`: Carpeta con todos los archivos generados por los notebooks.
-  * `/csv`: Subcarpeta para los resultados cuantitativos en formato `.csv`.
-  * `/img`: Subcarpeta para las visualizaciones e imágenes en formato `.png`.
-* `LICENSE`: La licencia MIT del proyecto.
+* **`/Notebooks`**: Todos los cuadernos de experimentos (español e inglés)
+* **`/Reports`**: Artículos de investigación completos (español e inglés)  
+* **`/outputs`**: Resultados generados por los experimentos
+  * `/csv`: Datos cuantitativos en formato CSV
+  * `/img`: Visualizaciones y gráficos
+* **`/data`**: Datasets y archivos de entrada
+* `LICENSE`: Licencia MIT del proyecto
 
 ---
-
 
 ## 🔬 Ciencia Independiente y Abierta
 
 Este trabajo se realizó de manera completamente independiente, sin financiación institucional ni corporativa, demostrando que la investigación de frontera puede surgir también desde entornos abiertos y accesibles.
-
-Si crees en este modelo de investigación y deseas contribuir a su sostenibilidad para permitir el desarrollo de futuros proyectos, puedes unirte a la comunidad de patrocinadores a través de GitHub Sponsors.
 
 [![Sponsor @NachoPeinador](https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2.svg)](https://github.com/sponsors/NachoPeinador)
 
 ---
 
 ## ✍️ Citación
-
-Si encuentras este trabajo útil para tu investigación, por favor, cita nuestro artículo:
 
 ```bibtex
 @misc{peinador2025engram,
@@ -90,7 +82,3 @@ Si encuentras este trabajo útil para tu investigación, por favor, cita nuestro
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
----
-
-
-
