@@ -1,6 +1,6 @@
 [Leer esta página en Español](README.md)
 
-# {Topological Reinforcement Operator (TRO): From Simulation to Neuroscience}(https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/TRO_Report.pdf)
+# [Topological Reinforcement Operator (TRO): From Simulation to Neuroscience](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/TRO_Report.pdf)
 
 **Author**: José Ignacio Peinador Sala | **Contact**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
