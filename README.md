@@ -71,6 +71,19 @@ Este trabajo se realizó de manera completamente independiente, sin financiació
 
 ---
 
+## 📩 Solicitud de Endorsement para arXiv
+
+Como nuevo autor en arXiv, necesito el aval (endorsement) de un autor ya establecido en la categoría **stat.ML** para poder subir este artículo.
+
+Si tienes la capacidad de dar endorsements en esta categoría y consideras, tras revisar el trabajo, que es adecuado para arXiv, te agradecería enormemente tu apoyo. El proceso es muy sencillo y no implica una revisión por pares.
+
+* **Enlace directo para el endorsement:** [https://arxiv.org/auth/endorse?x=P9TQU7](https://arxiv.org/auth/endorse?x=P9TQU7)
+* **Código de Endorsement:** `P9TQU7`
+
+Gracias por considerar ayudar a un investigador independiente a compartir su trabajo.
+
+---
+
 ## ✍️ Citación
 
 ```bibtex
