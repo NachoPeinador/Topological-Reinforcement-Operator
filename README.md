@@ -1,12 +1,13 @@
 [Read this page in English](README_EN.md)
 
-# Operador de Refuerzo Topológico (ORT): De la Simulación a la Neurociencia
+# [Operador de Refuerzo Topológico (ORT): De la Simulación a la Neurociencia](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/ORT_Informe.pdf)
 
 **Autor**: José Ignacio Peinador Sala | **Contacto**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 ---
 
@@ -75,10 +76,10 @@ Este trabajo se realizó de manera completamente independiente, sin financiació
 
 ```bibtex
 @misc{peinador2025engram,
-      title={Emulación de la Consolidación de Engramas en Redes Neuronales mediante un Operador de Refuerzo Topológico}, 
+      title={Topological Reinforcement in Graph Neural Networks for the Emulation of Engram Consolidation}, 
       author={José Ignacio Peinador Sala},
       year={2025},
       eprint={XXXX.XXXXX},
       archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      primaryClass={st.ML}
 }
