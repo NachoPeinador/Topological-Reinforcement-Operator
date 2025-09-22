@@ -1,12 +1,13 @@
 [Leer esta página en Español](README.md)
 
-# Topological Reinforcement Operator (TRO): From Simulation to Neuroscience
+# {Topological Reinforcement Operator (TRO): From Simulation to Neuroscience}(https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/TRO_Report.pdf)
 
 **Author**: José Ignacio Peinador Sala | **Contact**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 ---
 
@@ -75,10 +76,10 @@ This work was conducted completely independently, without institutional or corpo
 
 ```bibtex
 @misc{peinador2025engram,
-      title={Emulation of Engram Consolidation in Neural Networks through a Topological Reinforcement Operator}, 
+      title={Topological Reinforcement in Graph Neural Networks for the Emulation of Engram Consolidation}, 
       author={José Ignacio Peinador Sala},
       year={2025},
       eprint={XXXX.XXXXX},
       archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      primaryClass={st.ML}
 }
