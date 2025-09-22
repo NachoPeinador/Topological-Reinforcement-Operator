@@ -59,7 +59,6 @@ Aplicación directa a un cerebro humano digitalizado.
 * **`/outputs`**: Resultados generados por los experimentos
   * `/csv`: Datos cuantitativos en formato CSV
   * `/img`: Visualizaciones y gráficos
-* **`/data`**: Datasets y archivos de entrada
 * `LICENSE`: Licencia MIT del proyecto
 
 ---
