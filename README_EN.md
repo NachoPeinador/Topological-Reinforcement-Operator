@@ -71,6 +71,19 @@ This work was conducted completely independently, without institutional or corpo
 
 ---
 
+## 📩 Request for arXiv Endorsement
+
+As a new author to arXiv, I require an endorsement from an established author in the **stat.ML** category to submit this paper.
+
+If you are qualified to provide endorsements in this category and, after reviewing the work, you find it suitable for arXiv, I would be extremely grateful for your support. The process is very straightforward and does not imply a peer review.
+
+* **Direct Endorsement Link:** [https://arxiv.org/auth/endorse?x=P9TQU7](https://arxiv.org/auth/endorse?x=P9TQU7)
+* **Endorsement Code:** `P9TQU7`
+
+Thank you for considering helping an independent researcher share their work.
+
+---
+
 ## ✍️ Citation
 
 ```bibtex
