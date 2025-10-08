@@ -1,4 +1,0 @@
-Dataset,Nodos,Aristas,Tasa Recuperación Media
-Cora,2708,5278,92.88% ± 1.71%
-Citeseer,3279,4552,61.64% ± 3.49%
-Pubmed,19717,44324,100.00% ± 0.00%
