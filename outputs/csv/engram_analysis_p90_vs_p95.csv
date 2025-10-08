@@ -1,0 +1,11 @@
+Percentil,Operador,Núcleo (nodos),Activación Media,Activación Máxima
+P90,Topológico (Grado),248,1.1627333,11.477439
+P90,Eigenvector,248,0.79407907,11.477439
+P90,Betweenness,248,1.0492356,11.477439
+P90,Clustering,248,0.729512,3.398824
+P90,PageRank,248,1.1841158,11.477439
+P95,Topológico (Grado),124,1.332175,11.477439
+P95,Eigenvector,124,0.76798886,11.477439
+P95,Betweenness,124,1.1627207,11.477439
+P95,Clustering,124,0.74148595,2.8614988
+P95,PageRank,124,1.3431015,11.477439

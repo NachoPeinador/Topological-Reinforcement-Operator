@@ -1,0 +1,3 @@
+Operador,Tiempo (s),Núcleo (nodos),Centralidad media núcleo
+"ORT (Degree, P95)",0.2162,8593,1280.0751774700339
+PageRank (P95),36.4582,8588,2.8532838746083608e-05

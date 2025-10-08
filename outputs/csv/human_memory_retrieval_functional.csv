@@ -1,0 +1,3 @@
+Operador,Nodos en Núcleo,F1-Score Medio,F1-Score Std
+Degree,8593,0.8675317118584894,0.006799865197659818
+PageRank (aprox. Eigenvector),8588,0.8718095016301817,0.004160875365141871

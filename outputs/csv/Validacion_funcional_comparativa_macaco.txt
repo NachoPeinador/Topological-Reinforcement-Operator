@@ -1,0 +1,61 @@
+--- Cargando conectoma de macaco... ---
+✅ Conectoma cargado: 91 nodos, 1401 aristas
+
+--- Iniciando Validación Funcional Comparativa en el Conectoma de Macaco ---
+  Calculando tiempos de cómputo para cada operador...
+  ✅ Todas las centralidades calculadas y guardadas.
+
+--- TIEMPOS DE CÁLCULO DE CENTRALIDADES ---
+  Degree      : 0.0001 segundos
+  Eigenvector : 0.0054 segundos
+  PageRank    : 0.0064 segundos
+  Clustering  : 0.0218 segundos
+  Betweenness : 0.0972 segundos
+
+--- Evaluando engramas P90 ---
+  Operador: Degree...
+  Operador: Eigenvector...
+  Operador: Betweenness...
+  Operador: Clustering...
+  Operador: PageRank...
+
+--- Evaluando engramas P95 ---
+  Operador: Degree...
+  Operador: Eigenvector...
+  Operador: Betweenness...
+  Operador: Clustering...
+  Operador: PageRank...
+
+--- Tabla Comparativa: Rendimiento Funcional en el Conectoma de Macaco (P90 vs P95) ---
+Percentil    Operador  Nodos en Núcleo  F1-Score Medio  F1-Score Std  Tiempo Evaluación (s)
+      P90      Degree               10           0.960  4.898979e-02               0.042334
+      P90 Eigenvector               10           0.920  5.099020e-02               0.045326
+      P90 Betweenness               10           0.955  4.974937e-02               0.040190
+      P90  Clustering               10           0.500  0.000000e+00               0.042306
+      P90    PageRank               10           0.950  5.000000e-02               0.037493
+      P95      Degree                5           1.000  0.000000e+00               0.038601
+      P95 Eigenvector                5           1.000  0.000000e+00               0.037042
+      P95 Betweenness                5           0.840  8.000000e-02               0.045638
+      P95  Clustering                5           0.600  1.110223e-16               0.039452
+      P95    PageRank                5           1.000  0.000000e+00               0.044596
+
+======================================================================
+ANÁLISIS DE EFICIENCIA COMPARATIVA: ORT vs MÉTODOS COMPLEJOS
+======================================================================
+
+--- RANKING POR EFICIENCIA (F1-Score por segundo) ---
+  Eigenvector  P95:    27.0 F1/s (F1: 1.000, T: 0.037s)
+  Degree       P95:    25.9 F1/s (F1: 1.000, T: 0.039s)
+  PageRank     P90:    25.3 F1/s (F1: 0.950, T: 0.037s)
+  Betweenness  P90:    23.8 F1/s (F1: 0.955, T: 0.040s)
+  Degree       P90:    22.7 F1/s (F1: 0.960, T: 0.042s)
+  PageRank     P95:    22.4 F1/s (F1: 1.000, T: 0.045s)
+  Eigenvector  P90:    20.3 F1/s (F1: 0.920, T: 0.045s)
+  Betweenness  P95:    18.4 F1/s (F1: 0.840, T: 0.046s)
+  Clustering   P95:    15.2 F1/s (F1: 0.600, T: 0.039s)
+  Clustering   P90:    11.8 F1/s (F1: 0.500, T: 0.042s)
+
+--- COMPARATIVA ORT vs PAGERANK (P95) ---
+  ORT (Degree):     F1 = 1.000, Tiempo = 0.039s
+  PageRank:         F1 = 1.000, Tiempo = 0.045s
+  VENTAJA ORT:     1.2x más rápido

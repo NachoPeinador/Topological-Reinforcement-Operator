@@ -1,0 +1,7 @@
+Operador,F1-Score Medio,F1-Score Std,N_trials,Éxito
+Degree,0.8662942705302766,0.005200657281893353,15,✅
+Degree - Random,0.5126808642693664,0.0012909042672835619,15,✅
+Degree - Rewire (subgraph),0.0,0.0,45,⚠️
+PageRank,0.8747554727526783,0.004506714073622231,15,✅
+PageRank - Random,0.5124359571495108,0.0010329443753042912,15,✅
+PageRank - Rewire (subgraph),0.0,0.0,45,⚠️
