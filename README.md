@@ -43,12 +43,12 @@ Para ejecutar los experimentos con conectomas biológicos:
 ### **1. Experimento Fundamental: ORT en Redes y Conectomas**
 Pipeline completo desde GNN hasta validación en múltiples datasets.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OukR00V035_fHGbIVuXwso2FWCoD8_Q5?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jMDuMRp19TGHzQir38zZAPpD-nwImIru?usp=sharing)
 
 ### **2. Viaje al Cerebro: ORT en Conectoma Humano**
 Aplicación directa a un cerebro humano digitalizado.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1r9p6agxbX0cT9hqzkwL4XCuO10_Eu73i?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xWD80iABtZElrThMHKnRwQGUcn4ENEU5?usp=sharing)
 
 ---
 
