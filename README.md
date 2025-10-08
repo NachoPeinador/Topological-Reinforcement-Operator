@@ -1,31 +1,31 @@
 [Read this page in English](README_EN.md)
 
-# [Operador de Refuerzo Topológico (ORT): De la Simulación a la Neurociencia](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/ORT_Informe.pdf)
+# El Operador de Refuerzo Topológico (ORT): Un Principio de Parsimonia para la Consolidación de Memoria
 
 **Autor**: José Ignacio Peinador Sala | **Contacto**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![arXiv](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17176413.svg)](https://doi.org/10.5281/zenodo.17176413)
+[![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--XXXXXXX-blue.svg)](https://doi.org/10.21203/rs.3.rs-XXXXXXX/v1)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.YYYYYYY.svg)](https://doi.org/10.5281/zenodo.YYYYYYY)
 
 ---
 
-Este repositorio contiene la investigación y el código del **Operador de Refuerzo Topológico (ORT)**, un método computacional diseñado para emular la consolidación de engramas de memoria en redes complejas, desde sistemas modelo hasta conectomas cerebrales reales.
+Este repositorio contiene la investigación y el código del **Operador de Refuerzo Topológico (ORT)**, un principio computacional que emula la consolidación de engramas de memoria en redes complejas.
 
-El proyecto busca responder a una pregunta fundamental: **¿Puede la memoria duradera emerger directamente de la organización topológica de una red?**
+El proyecto valida que la memoria funcional y resiliente puede emerger directamente de la organización topológica de una red, revelando un principio de **parsimonia computacional** con plausibilidad biológica.
 
-![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/engrama_consolidado.png)
-*Visualización de un engrama consolidado. Los nodos del núcleo (rojo) y su vecindario (naranja) demuestran una estructura de memoria funcional y resiliente.*
+![Engram Visualization](outputs/img/engrama_humano.png)
+*Visualización de una muestra del engrama P95 en el conectoma humano, revelando una estructura "core-periphery" y una organización "rich-club".*
 
 ---
 
 ## 🎯 Hallazgos Principales
 
-* **✅ Recuperación de memoria perfecta**: 100% de recuperación en Pubmed y conectoma humano
-* **✅ Validación biológica**: Estructura de "super-hubs" confirmada en conectoma humano real
-* **✅ Generalización robusta**: Funciona en redes desde 2,700 hasta 178,000 nodos
-* **✅ Mecanismo simple**: La centralidad de grado supera a métricas complejas
+* **🧠 Principio Dual (Masa Crítica vs. Élite):** Las redes biológicas optimizan la memoria con núcleos de **"élite"** (P95), mientras que las redes de información requieren una **"masa crítica"** (P90) para ser resilientes.
+* **🔗 Especificidad Topológica:** La función de la memoria **colapsa (F1-score ≈ 0)** si se altera la configuración precisa de la red cerebral, probando que no solo importan los hubs, sino cómo están conectados.
+* **⚡ Parsimonia Computacional:** El ORT basado en Grado es **~96x más rápido** y consume **~19x menos RAM** que PageRank, logrando un rendimiento funcional comparable.
+* **✅ Plausibilidad Biológica:** El ORT alcanza un rendimiento excepcional (**F1-score ~87%**) en la recuperación de memoria en el conectoma humano.
 
 ---
 
@@ -71,27 +71,29 @@ Este trabajo se realizó de manera completamente independiente, sin financiació
 
 ---
 
-## 📩 Solicitud de Endorsement para arXiv
+## 🚀 Apoya y Difunde esta Investigación
 
-Como nuevo autor en arXiv, necesito el aval (endorsement) de un autor ya establecido en la categoría **stat.ML** para poder subir este artículo.
+Como investigador independiente, la visibilidad de este trabajo depende en gran medida del apoyo de la comunidad científica y de entusiastas como tú. Si este proyecto te ha resultado interesante o útil, aquí tienes algunas formas muy concretas en las que puedes ayudar a darle visibilidad:
 
-Si tienes la capacidad de dar endorsements en esta categoría y consideras, tras revisar el trabajo, que es adecuado para arXiv, te agradecería enormemente tu apoyo. El proceso es muy sencillo y no implica una revisión por pares.
+* **⭐️ Dale una Estrella en GitHub:** Si te gusta el repositorio, haz clic en el botón **"Star"** en la parte superior de la página. Es un indicador de calidad clave que ayuda a que otros descubran el proyecto.
 
-* **Enlace directo para el endorsement:** [https://arxiv.org/auth/endorse?x=P9TQU7](https://arxiv.org/auth/endorse?x=P9TQU7)
-* **Código de Endorsement:** `P9TQU7`
+* **🔄 Comparte en Redes Sociales:** Publica el enlace al preprint de Research Square o a este repositorio en **Twitter (X)**, **LinkedIn** o tu red académica preferida. Un simple post puede tener un impacto enorme. No dudes en mencionarme `@todos_lumpen`.
 
-Gracias por considerar ayudar a un investigador independiente a compartir su trabajo.
+* **✍️ Cita el Trabajo:** La forma más importante y duradera de apoyo en la ciencia es la citación. Si mi artículo, código o metodología inspira o es útil para tu propia investigación, por favor, considera citarlo.
+
+* **💬 Inicia una Discusión:** Si tienes preguntas, ideas para futuras investigaciones o críticas constructivas, no dudes en abrir un **"Issue"** aquí en el repositorio. ¡Me encantaría conocer tu opinión y debatir sobre los resultados!
+
+¡Gracias por tu apoyo para hacer visible la ciencia independiente!
 
 ---
 
 ## ✍️ Citación
 
 ```bibtex
-@misc{peinador2025engram,
-      title={Topological Reinforcement in Graph Neural Networks for the Emulation of Engram Consolidation}, 
-      author={José Ignacio Peinador Sala},
-      year={2025},
-      eprint={XXXX.XXXXX},
-      archivePrefix={arXiv},
-      primaryClass={st.ML}
+@article{peinador2025ort,
+      author = {Jos{\'e} Ignacio Peinador Sala},
+      title = {El Operador de Refuerzo Topol{\'o}gico (ORT): Un Principio de Parsimonia para la Consolidaci{\'o}n de Memoria en Redes Complejas},
+      year = {2025},
+      journal = {Research Square},
+      doi = {10.21203/rs.3.rs-XXXXXXX/v1}
 }
