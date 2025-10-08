@@ -1,31 +1,31 @@
-[Leer esta página en Español](README.md)
+[Read this page in Spanish](README.md)
 
-# [Topological Reinforcement Operator (TRO): From Simulation to Neuroscience](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/Reports/TRO_Report.pdf)
+# The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation
 
 **Author**: José Ignacio Peinador Sala | **Contact**: [joseignacio.peinador@gmail.com](mailto:joseignacio.peinador@gmail.com) | **ORCID**: [0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.XXXX.XXXXX-b31b1b.svg)](https://doi.org/10.48550/arXiv.XXXX.XXXXX)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17176413.svg)](https://doi.org/10.5281/zenodo.17176413)
+[![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--XXXXXXX-blue.svg)](https://doi.org/10.21203/rs.3.rs-XXXXXXX/v1)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.YYYYYYY.svg)](https://doi.org/10.5281/zenodo.YYYYYYY)
 
 ---
 
-This repository contains the research and code for the **Topological Reinforcement Operator (TRO)**, a computational method designed to emulate memory engram consolidation in complex networks, from model systems to real brain connectomes.
+This repository contains the research and code for the **Topological Reinforcement Operator (TRO)**, a computational principle that emulates the consolidation of memory engrams in complex networks.
 
-The project seeks to answer a fundamental question: **Can long-lasting memory emerge directly from the topological organization of a network?**
+The project validates that functional and resilient memory can emerge directly from a network's topological organization, revealing a principle of **computational parsimony** with biological plausibility.
 
-![Engram Visualization](https://github.com/NachoPeinador/Topological-Reinforcement-Operator/blob/main/outputs/img/engrama_consolidado.png)
-*Visualization of a consolidated engram. Core nodes (red) and their neighborhood (orange) demonstrate a functional and resilient memory structure.*
+![Engram Visualization](outputs/img/engrama_humano.png)
+*Visualization of a sample of the P95 engram in the human connectome, revealing a "core-periphery" structure and a "rich-club" organization.*
 
 ---
 
-## 🎯 Key Findings
+## 🎯 Main Findings
 
-* **✅ Perfect memory recovery**: 100% recovery in Pubmed and human connectome
-* **✅ Biological validation**: "Super-hubs" structure confirmed in real human connectome
-* **✅ Robust generalization**: Works on networks from 2,700 to 178,000 nodes
-* **✅ Simple mechanism**: Degree centrality outperforms complex metrics
+* **🧠 Dual Principle (Critical Mass vs. Elite):** Biological networks optimize memory with **"elite"** cores (P95), whereas information networks require a **"critical mass"** (P90) to be resilient.
+* **🔗 Topological Specificity:** Memory function **collapses (F1-score ≈ 0)** if the brain network's precise configuration is altered, proving that it's not just the hubs that matter, but how they are connected.
+* **⚡ Computational Parsimony:** The Degree-based TRO is **~96x faster** and consumes **~19x less RAM** than PageRank, while achieving comparable functional performance.
+* **✅ Biological Plausibility:** The TRO achieves exceptional performance (**F1-score ~87%**) in memory recovery on the human connectome.
 
 ---
 
@@ -71,27 +71,29 @@ This work was conducted completely independently, without institutional or corpo
 
 ---
 
-## 📩 Request for arXiv Endorsement
+## 🚀 Support and Share this Research
 
-As a new author to arXiv, I require an endorsement from an established author in the **stat.ML** category to submit this paper.
+As an independent researcher, the visibility of this work largely depends on the support of the scientific community and enthusiasts like you. If you found this project interesting or useful, here are a few concrete ways you can help increase its visibility:
 
-If you are qualified to provide endorsements in this category and, after reviewing the work, you find it suitable for arXiv, I would be extremely grateful for your support. The process is very straightforward and does not imply a peer review.
+* **⭐️ Star it on GitHub:** If you like the repository, click the **"Star"** button at the top of the page. It's a key quality indicator that helps others discover the project.
 
-* **Direct Endorsement Link:** [https://arxiv.org/auth/endorse?x=P9TQU7](https://arxiv.org/auth/endorse?x=P9TQU7)
-* **Endorsement Code:** `P9TQU7`
+* **🔄 Share on Social Media:** Post the link to the Research Square preprint or to this repository on **Twitter (X)**, **LinkedIn**, or your preferred academic network. A simple post can have a huge impact. Feel free to mention me `@todos_lumpen`.
 
-Thank you for considering helping an independent researcher share their work.
+* **✍️ Cite the Work:** The most important and lasting form of support in science is citation. If my paper, code, or methodology inspires or is useful for your own research, please consider citing it.
+
+* **💬 Start a Discussion:** If you have questions, ideas for future research, or constructive criticism, don't hesitate to open an **"Issue"** here in the repository. I would love to hear your opinion and discuss the results!
+
+Thank you for your support in making independent science visible!
 
 ---
 
 ## ✍️ Citation
 
 ```bibtex
-@misc{peinador2025engram,
-      title={Topological Reinforcement in Graph Neural Networks for the Emulation of Engram Consolidation}, 
-      author={José Ignacio Peinador Sala},
-      year={2025},
-      eprint={XXXX.XXXXX},
-      archivePrefix={arXiv},
-      primaryClass={st.ML}
+@article{peinador2025ort,
+      author = {Jos{\'e} Ignacio Peinador Sala},
+      title = {The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation in Complex Networks},
+      year = {2025},
+      journal = {Research Square},
+      doi = {10.21203/rs.3.rs-XXXXXXX/v1}
 }
