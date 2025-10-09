@@ -2,7 +2,7 @@
 
 # El Operador de Refuerzo Topológico (ORT): Un Principio de Parsimonia para la Consolidación de Memoria
 
-# **Autor**: José Ignacio Peinador Sala 
+**Autor**: José Ignacio Peinador Sala 
 [![Contacto](https://img.shields.io/badge/Contacto-joseignacio.peinador@gmail.com-007BFF.svg)](mailto:joseignacio.peinador@gmail.com)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--1822--3452-A6CE39.svg?logo=orcid&logoColor=white)](https://orcid.org/0009-0008-1822-3452)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
