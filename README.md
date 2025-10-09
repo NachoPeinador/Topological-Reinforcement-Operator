@@ -1,4 +1,4 @@
-[Read this page in English](README_EN.md)
+[![Read in English](https://img.shields.io/badge/Read%20in-English%20%F0%9F%87%AC%F0%9F%87%A7-007BFF.svg)](README_EN.md)
 
 # El Operador de Refuerzo Topológico (ORT): Un Principio de Parsimonia para la Consolidación de Memoria
 
