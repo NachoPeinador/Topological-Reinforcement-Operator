@@ -1,4 +1,4 @@
-[Read this page in Spanish](README.md)
+[![Leer en Español](https://img.shields.io/badge/Leer%20en-Español%20%F0%9F%87%AA%F0%9F%87%B8-007BFF.svg)](README.md)
 
 # The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation
 
