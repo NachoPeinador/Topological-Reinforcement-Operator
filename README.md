@@ -7,7 +7,7 @@
 [![Contacto](https://img.shields.io/badge/Contacto-joseignacio.peinador@gmail.com-007BFF.svg)](mailto:joseignacio.peinador@gmail.com)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--XXXXXXX-blue.svg)](https://doi.org/10.21203/rs.3.rs-XXXXXXX/v1)
+[![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--XXXXXXX-blue.svg)](https://dx.doi.org/10.21203/rs.3.rs-7808963/v1)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17176412.svg)](https://doi.org/10.5281/zenodo.17176412)
 
 ---
@@ -91,10 +91,6 @@ Como investigador independiente, la visibilidad de este trabajo depende en gran 
 ## ✍️ Citación
 
 ```bibtex
-@article{peinador2025tro,
-      author = {Jos{\'e} Ignacio Peinador Sala},
-      title = {The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation in Complex Networks},
-      year = {2025},
-      journal = {Research Square},
-      doi = {10.21203/rs.3.rs-XXXXXXX/v1}
-}
+José Ignacio Peinador Sala. The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation in Complex Networks, 09 October 2025, PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-7808963/v1]
+
+
