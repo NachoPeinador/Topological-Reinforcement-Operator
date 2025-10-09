@@ -90,7 +90,7 @@ Thank you for your support in making independent science visible!
 ## ✍️ Citation
 
 ```bibtex
-@article{peinador2025ort,
+@article{peinador2025tro,
       author = {Jos{\'e} Ignacio Peinador Sala},
       title = {The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation in Complex Networks},
       year = {2025},
