@@ -90,9 +90,9 @@ Como investigador independiente, la visibilidad de este trabajo depende en gran 
 ## ✍️ Citación
 
 ```bibtex
-@article{peinador2025ort,
+@article{peinador2025tro,
       author = {Jos{\'e} Ignacio Peinador Sala},
-      title = {El Operador de Refuerzo Topol{\'o}gico (ORT): Un Principio de Parsimonia para la Consolidaci{\'o}n de Memoria en Redes Complejas},
+      title = {The Topological Reinforcement Operator (TRO): A Parsimony Principle for Memory Consolidation in Complex Networks},
       year = {2025},
       journal = {Research Square},
       doi = {10.21203/rs.3.rs-XXXXXXX/v1}
