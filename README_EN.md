@@ -16,7 +16,7 @@ This repository contains the research and code for the **Topological Reinforceme
 
 The project validates that functional and resilient memory can emerge directly from a network's topological organization, revealing a principle of **computational parsimony** with biological plausibility.
 
-![Engram Visualization](outputs/img/engrama_humano.png)
+![Engram Visualization](outputs/img/engrama_humano_ENG.png)
 *Visualization of a sample of the P95 engram in the human connectome, revealing a "core-periphery" structure and a "rich-club" organization.*
 
 ---
