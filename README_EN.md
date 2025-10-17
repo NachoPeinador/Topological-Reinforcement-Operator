@@ -51,6 +51,11 @@ Direct application to a digitized human brain.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PlIGkPnToAvCXUJR9BEflZyyDNUytf4I?usp=sharing)
 
+### 🚀 COMING SOON: The ORT-F Classifier (Diagnostic & Prognostic Pipeline)
+The most advanced pipeline of the project. This notebook will implement the ORT-F Classifier as a clinical prototype tool for the **early diagnosis** of network degradation and the **prognosis** of its future resilience (brain reserve).
+
+![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)
+
 ---
 
 ## 📂 Repository Structure
