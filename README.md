@@ -51,6 +51,11 @@ Aplicación directa a un cerebro humano digitalizado.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xWD80iABtZElrThMHKnRwQGUcn4ENEU5?usp=sharing)
 
+### 🚀 PRÓXIMAMENTE: Clasificador ORT-F (Pipeline de Diagnóstico y Pronóstico)
+El pipeline más avanzado del proyecto. Este notebook implementará el Clasificador ORT-F como un prototipo de herramienta clínica para el **diagnóstico precoz** de la degradación de la red y el **pronóstico** de su resiliencia futura (reserva cerebral).
+
+![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-orange.svg)
+
 ---
 
 ## 📂 Estructura del Repositorio
