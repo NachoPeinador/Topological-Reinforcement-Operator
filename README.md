@@ -59,7 +59,7 @@ Framework estratégico para restaurar conectomas dañados mediante intervención
 ### **4. Fusión de Componentes: Reparación Óptima de Redes**
 Algoritmo fundamental que establece el límite teórico mínimo para restaurar la integridad estructural de redes neuronales fragmentadas.
 
-https://img.shields.io/badge/GitHub-Repository-181717?logo=github
+[![REPO](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/NachoPeinador/Component-Fusion-Repair)
 
 ### 🆕EXTRA: Clasificador ORT-F (Pipeline de Diagnóstico y Pronóstico)🩺**
 Prueba de concepto. Este notebook implementará el Clasificador ORT-F como un prototipo de herramienta clínica para el **diagnóstico precoz** de la degradación de la red y el **pronóstico** de su resiliencia futura (reserva cerebral).
