@@ -54,7 +54,7 @@ Aplicación directa a un cerebro humano digitalizado.
 ### **3. Reparación Cerebral Mínima: ORT-THERAPY-F**
 Framework estratégico para restaurar conectomas dañados mediante intervención mínima, aplicando el principio de "Absorción del Componente Gigante" en neurodegeneración.
 
-https://img.shields.io/badge/GitHub-Repository-181717?logo=github
+[![REPO](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/NachoPeinador/Minimal-Reconnection-for-Brain-Resilience)
 
 ### **4. Fusión de Componentes: Reparación Óptima de Redes**
 Algoritmo fundamental que establece el límite teórico mínimo para restaurar la integridad estructural de redes neuronales fragmentadas.
