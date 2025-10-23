@@ -51,8 +51,18 @@ Aplicación directa a un cerebro humano digitalizado.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1xWD80iABtZElrThMHKnRwQGUcn4ENEU5?usp=sharing)
 
-### **3. 🆕NUEVO: Clasificador ORT-F (Pipeline de Diagnóstico y Pronóstico)🩺**
-El pipeline más avanzado del proyecto. Este notebook implementará el Clasificador ORT-F como un prototipo de herramienta clínica para el **diagnóstico precoz** de la degradación de la red y el **pronóstico** de su resiliencia futura (reserva cerebral).
+### **3. Reparación Cerebral Mínima: ORT-THERAPY-F**
+Framework estratégico para restaurar conectomas dañados mediante intervención mínima, aplicando el principio de "Absorción del Componente Gigante" en neurodegeneración.
+
+https://img.shields.io/badge/GitHub-Repository-181717?logo=github
+
+### **4. Fusión de Componentes: Reparación Óptima de Redes**
+Algoritmo fundamental que establece el límite teórico mínimo para restaurar la integridad estructural de redes neuronales fragmentadas.
+
+https://img.shields.io/badge/GitHub-Repository-181717?logo=github
+
+### 🆕EXTRA: Clasificador ORT-F (Pipeline de Diagnóstico y Pronóstico)🩺**
+Prueba de concepto. Este notebook implementará el Clasificador ORT-F como un prototipo de herramienta clínica para el **diagnóstico precoz** de la degradación de la red y el **pronóstico** de su resiliencia futura (reserva cerebral).
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NPV6lQ04bC0NI3eZzRdtGuOqiHz8rWfN?usp=sharing)
 
